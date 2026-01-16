@@ -1,0 +1,69 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    /* background-color: #f8f8f8; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .navbar-title {
+    flex: 1;
+  }
+  
+  .navbar-title h1 {
+    margin: 0;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    -webkit-background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: transparent; /* Make text color transparent */
+    background-clip: text; /* Standard property */
+    color: transparent; /* Fallback for unsupported browsers */
+    font-size: 50px; /* Adjust the size as needed */
+  }
+  
+  .nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    padding-right: 70px;
+    gap:40px;
+  }
+  
+  .nav-menu li {
+    margin-right: 20px;
+    font-size: 30px;
+    
+  }
+  
+  .nav-menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .nav-menu li img {
+    display: block;
+    margin-top: 5px;
+  }
+  
+  .nav-connect {
+    text-align: right;
+  }
+  
+  .connect-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .connect-btn:hover {
+    background-color: #0056b3;
+  }

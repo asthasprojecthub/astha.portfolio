@@ -55,7 +55,7 @@ const Hero = () => {
 
         {/* ✅ Open PDF without a button */}
         <div className="hero-resume">
-          <a href="/AsthaVerma.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="/Astha Verma.pdf" target="_blank" rel="noopener noreferrer">
             My Resume
           </a>
         </div>
